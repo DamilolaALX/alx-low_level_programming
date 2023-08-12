@@ -1,6 +1,5 @@
 #include <stdlib.h>
 #include <time.h>
-/* more headers goes there */
 #include <stdio.h>
 
 /**
@@ -11,7 +10,6 @@
  *
  * Return: Always 0 (Success)
  */
-/* betty style doc for function main goes there */
 int main(void)
 {
 	int n;
@@ -21,7 +19,7 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 	/* calculate the last digit of n*/
 	lastdigitofn = n % 10;
-	/* your code goes there */
+	
 	if (lastdigitofn > 5)
 	{
 		printf("the last digit of %d is %d and is greater than 5\n", n, lastdigitofn);
@@ -32,7 +30,7 @@ int main(void)
 	}
 	else if ((lastdigitofn < 6) && (lastdigitofn != 0))
 	{
-		printf("the lst digit of %d is %d and is less than 6 and not 0\n", n, lastdigitofn);
+		printf("the last digit of %d is %d and is less than 6 and not 0\n", n, lastdigitofn);
 	}
 	return (0);
 }
