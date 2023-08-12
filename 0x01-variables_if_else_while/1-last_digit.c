@@ -13,24 +13,24 @@
 int main(void)
 {
 	int n;
-	int lastdigitofn;
+	int lgtn;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	/* calculate the last digit of n*/
-	lastdigitofn = n % 10;
+	lgtn = n % 10;
 	
-	if (lastdigitofn > 5)
+	if (lgtn > 5)
 	{
-		printf("the last digit of %d is %d and is greater than 5\n", n, lastdigitofn);
+		printf("the last digit of %d is %d and is greater than 5\n", n, lgtn);
 	}
-	else if (lastdigitofn == 0)
+	else if (lgtn == 0)
 	{
-		printf("the last digit of %d is %d\n", n, lastdigitofn);
+		printf("the last digit of %d is %d\n", n, lgtn);
 	}
-	else if ((lastdigitofn < 6) && (lastdigitofn != 0))
+	else if ((lgtn < 6) && (lgtn != 0))
 	{
-		printf("the last digit of %d is %d and is less than 6 and not 0\n", n, lastdigitofn);
+		printf("the last digit of %d is %d and is less than 6 and not 0\n", n, lgtn);
 	}
 	return (0);
 }
