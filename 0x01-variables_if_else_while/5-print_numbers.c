@@ -11,14 +11,15 @@
 
 int main(void)
 {
-	int number = (0);
-	/* print numbers */
-	while (number <= 9)
+	int i = 0;
+	/* print numbers from 0 - 9 */
+	while (i <= 9)
 	{
-		printf("%d, number);
-		number++;
+		printf("%d", i);
+		i++;
 	}
-		printf('\n');
+	/* Print a new line */
+	printf("\n");
 
 	return (0);
 }
