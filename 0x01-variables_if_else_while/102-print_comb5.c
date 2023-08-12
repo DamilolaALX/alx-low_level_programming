@@ -8,32 +8,37 @@
  *
  *Return: Always 0 (Success)
  */
+ 
+int putchar(int c);
 
-void putchar_twice(int num)
+void print_combinations()
 {
-    putchar('0' + num / 10);
-    putchar('0' + num % 10);
-}
-
-int main()
-{
-    int i, j;
-
-    for (i = 0; i <= 99; i++)
+    int i = 0;
+    while (i <= 99)
     {
-        for (j = i; j <= 99; j++)
+        int j = i;
+        while (j <= 99)
 	{
-            putchar_twice(i);
+            putchar(i / 10 + 48);
+            putchar(i % 10 + 48);
             putchar(' ');
-            putchar_twice(j);
-            
+            putchar(j / 10 + 48);
+            putchar(j % 10 + 48);
+
             if (j != 99 || i != 99)
 	    {
                 putchar(',');
                 putchar(' ');
-	    }
-        }
-    }
+            }
 
-    return (0);
+            j++;
+        }
+        i++;
+    }
+}
+
+int main(void)
+{
+    print_combinations();
+    return 0;
 }
