@@ -28,7 +28,7 @@ int main(void)
 		uppercase++;
 	}
 	/* Print new line */
-	putchar(\n);
+	putchar('\n');
 
 	return (0);
 }
