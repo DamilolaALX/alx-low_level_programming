@@ -9,22 +9,31 @@
  *Return: Always 0 (Success)
  */
 
-int main(void)
+void putchar_twice(int num)
 {
-	int i = 48;
+    putchar('0' + num / 10);
+    putchar('0' + num % 10);
+}
 
-	while (i <= 57)
+int main()
+{
+    int i, j;
+
+    for (i = 0; i <= 99; i++)
+    {
+        for (j = i; j <= 99; j++)
 	{
-		putchar(i);
-		if (i < 57)
-		{
-			putchar(',');
-			putchar(' ');
-		}
-		i++;
-	}
-	/* print new line */
-	putchar('\n');
+            putchar_twice(i);
+            putchar(' ');
+            putchar_twice(j);
+            
+            if (j != 99 || i != 99)
+	    {
+                putchar(',');
+                putchar(' ');
+	    }
+        }
+    }
 
-	return (0);
+    return (0);
 }
