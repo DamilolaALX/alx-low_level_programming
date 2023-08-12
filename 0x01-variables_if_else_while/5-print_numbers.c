@@ -19,6 +19,6 @@ int main(void)
 		number++;
 	}
 		printf('\n');
-		
+
 	return (0);
 }
