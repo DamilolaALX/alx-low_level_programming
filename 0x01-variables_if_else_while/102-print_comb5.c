@@ -31,7 +31,7 @@ while (h < 58)
 				if (op1 < op2)
 				{
 					/** ensures that each combination is
-					 *printed only once
+					 /*printed only once
 					 */
 					putchar(h);
 					putchar(g);
