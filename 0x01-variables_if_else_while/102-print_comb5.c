@@ -1,44 +1,54 @@
 #include <stdio.h>
 
 /**
- *main - Entry point of the program
- *
- *Description: A program that prints all possible combinations of single-digit
- *numbers.
- *
- *Return: Always 0 (Success)
- */
- 
-int putchar(int c);
-
-void print_combinations()
-{
-    int i = 0;
-    while (i <= 99)
-    {
-        int j = i;
-        while (j <= 99)
-	{
-            putchar(i / 10 + 48);
-            putchar(i % 10 + 48);
-            putchar(' ');
-            putchar(j / 10 + 48);
-            putchar(j % 10 + 48);
-
-            if (j != 99 || i != 99)
-	    {
-                putchar(',');
-                putchar(' ');
-            }
-
-            j++;
-        }
-        i++;
-    }
-}
-
+*main - Prints numbers between 00 to 99.
+*
+*Return: Always 0 (Success)
+*/
 int main(void)
 {
-    print_combinations();
-    return 0;
+	/* set variables */
+int i, e, g, h, op1, op2;
+
+i = e = g = h = 48;
+
+while (h < 58)
+{
+	g = 48;
+	while (g < 58)
+	{
+		e = 48;
+		while (e < 58)
+		{
+			i = 48;
+			while (i < 58)
+			{
+				op1 = (h * 10) + g;
+				op2 = (e * 10) + i;
+				if (op1 < op2)
+				{
+					/* ensures that each combination is
+					 *printed only once
+					 */
+					putchar(h);
+					putchar(g);
+					putchar(' ');
+					putchar(e);
+					putchar(i);
+					if (h == 57 && g == 56 && e == 57 \
+					    && i == 57)
+						break;
+					putchar(',');
+					putchar(' ');
+				}
+				i++;
+			}
+			e++;
+		}
+		g++;
+	}
+	h++;
+}
+putchar('\n');
+return (0);
 }
