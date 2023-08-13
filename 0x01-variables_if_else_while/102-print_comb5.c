@@ -30,9 +30,7 @@ while (h < 58)
 				op2 = (e * 10) + i;
 				if (op1 < op2)
 				{
-					/** ensures that each combination is
-					 /*printed only once
-					 */
+		/* ensures that each combination is printed only once */
 					putchar(h);
 					putchar(g);
 					putchar(' ');
