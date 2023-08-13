@@ -8,7 +8,8 @@
 *
 *Return: Always 0 (Success)
 */
-void print_combinations(void)
+
+int main(void)
 {
 	/* set variables */
 int i, e, g, h, op1, op2;
@@ -36,8 +37,7 @@ while (h < 58)
 					putchar(' ');
 					putchar(e);
 					putchar(i);
-					if (h == 57 && g == 56 && e == 57 \
-					    && i == 57)
+				if (h == 57 && g == 56 && e == 57 && i == 57)
 						break;
 					putchar(',');
 					putchar(' ');
@@ -50,10 +50,7 @@ while (h < 58)
 	}
 	h++;
 }
-	int main(void)
-{
-    print_combinations();
 putchar('\n');
 return (0);
 }
-}
+
