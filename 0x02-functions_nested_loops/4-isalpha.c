@@ -4,6 +4,7 @@
  *
  *Description:  a function that checks for alphabetic character.
  *
+ *Return: Always 0 (success)
  */
 
 int _isalpha(int c)
