@@ -11,15 +11,15 @@
 
 int print_last_digit(int i)
 {
-	int lastdigit = i % 10;
+	int last_digit = i % 10;
 
 	if (i < 0)
 	{
-		printf("%d", -lastdigit);
+		printf("%d\n", -last_digit);
 	}
 	else
 	{
-		printf("%d", lastdigit);
+		printf("%d\n", last_digit);
 	}
 	return (0);
 }
