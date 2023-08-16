@@ -3,6 +3,8 @@
 /**
  *_abs- Entry point of the program
  *
+ *@n: integer to check
+ *
  *Description: Computes the absolute value of an integer
  *
  *Return: Always 0 (success)
