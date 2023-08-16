@@ -2,6 +2,8 @@
 /**
  *_isalpha- Entry point of the program
  *
+ * @c: The character to be checked.
+ *
  *Description:  a function that checks for alphabetic character.
  *
  *Return: Always 0 (success)
