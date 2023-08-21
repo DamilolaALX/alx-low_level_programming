@@ -2,7 +2,10 @@
 
 /**
  *swap_int- swaps the values of two integers.
- *@a, @b: integers to be swapped
+ *
+ *@a: the first integer
+ *@b: the second integer
+ *
  *Return: void
  */
 
