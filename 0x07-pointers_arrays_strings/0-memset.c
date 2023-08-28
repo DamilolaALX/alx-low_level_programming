@@ -7,7 +7,7 @@
  * @n: number of times to copy b
  *
  * Return: pointer to S
- * */
+ */
 
 char *_memset(char *s, char b, unsigned int n)
 {
