@@ -1,0 +1,20 @@
+#include "main.h"
+
+/**
+ * factorial- finds the factporial of a given number
+ *
+ * @n: the given number
+ *
+ * Return: The factorial of the number
+ */
+
+int factorial(int n)
+{
+	if (n < 0)
+	{
+		return (-1);
+	}
+	if (n == 0)
+		return (1);
+	return (n * factorial(n - 1));
+}
