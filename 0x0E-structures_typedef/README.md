@@ -33,7 +33,7 @@ To compile and run the examples in this repository, follow these steps:
    ./aout
 
 ### Author
-Adegunle Damilola (gmail.com/adegunledamiloladaniel@gmail.com)
+Adegunle Damilola (https://wwww.gmail.com/adegunledamiloladaniel@gmail.com)
 
 Acknowledgments
 This project is part of the curriculum of ALX software programming and was created for educational purposes.
