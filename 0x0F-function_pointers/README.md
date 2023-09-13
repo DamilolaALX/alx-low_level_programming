@@ -1,4 +1,4 @@
-# [0x0F-function_pointers]](https://github.com/DamilolaALX/alx-low_level_programming/0x0F-function_pointers)
+# [0x0F-function_pointers](https://github.com/DamilolaALX/alx-low_level_programming/0x0F-function_pointers)
 
 This project looks at the concept of function pointers in the C programming language. Function pointers are pointers that point to the memory address of a function rather than pointing to a data value. They provide a way to store and pass around references to functions, allowing for dynamic function calls and more flexible program structures. This repository contains various C source code files that demonstrate the usage of function pointers in different contexts.
 
