@@ -1,14 +1,14 @@
-#[0x10-variadic_functions](https://github.com/DamilolaALX/alx-low_level_programming/0x10-variadic_functions)
+# [0x10-variadic_functions](https://github.com/DamilolaALX/alx-low_level_programming/0x10-variadic_functions)
 
-##DESCRIPTION:
+## DESCRIPTION:
 This project contains C programs that demonstrate the usage of variadic functions. Variadic functions are functions that can take a variable number of arguments.
 
-###FILES
-[0-sum_them_all.c](https://github.com/DamilolaALX/alx-low_level_programming/0x10-variadic_functions/blob/master/0-sum_them_all.c): This file contains a function sum_them_all that calculates the sum of a variable number of integers using a variadic function.
+### FILES
+### [0-sum_them_all.c](https://github.com/DamilolaALX/alx-low_level_programming/0x10-variadic_functions/blob/master/0-sum_them_all.c): This file contains a function sum_them_all that calculates the sum of a variable number of integers using a variadic function.
 
-1-print_numbers.c: This file contains a function print_numbers that prints a variable number of integers using a variadic function.
+### [1-print_numbers.c](https://github.com/DamilolaALX/alx-low_level_programming/0x10-variadic_functions/blob/master/1-print_numbers.c): This file contains a function print_numbers that prints a variable number of integers using a variadic function.
 
-2-print_strings.c: This file contains a function print_strings that prints a variable number of strings using a variadic function.
+### [2-print_strings.c](https://github.com/DamilolaALX/alx-low_level_programming/0x10-variadic_functions/blob/master/2-print_strings.c): This file contains a function print_strings that prints a variable number of strings using a variadic function.
 
 3-print_all.c: This file contains a function print_all that prints a variable number of different types of data (integers, floats, and strings) using a variadic function.
 
