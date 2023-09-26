@@ -4,8 +4,9 @@
 This directory contains C source files implementing various operations on singly linked lists.
 
 ### Files
-- `0-print_listint.c`: Prints all the elements of a linked list.
-- `1-listint_len.c`: Computes the length of a linked list.
+- [`0-print_listint.c`:](https://github.com/DamilolaALX/alx-low_level_programming/0x13-more_singly_linked_lists/blob/master/0-print_listint.c)
+ Prints all the elements of a linked list.
+- [`1-listint_len.c`:](https://github.com/DamilolaALX/alx-low_level_programming/0x13-more_singly_linked_lists/blob/master/1-listint_len.c) Computes the length of a linked list.
 - `2-add_nodeint.c`: Adds a new node at the beginning of a linked list.
 - `3-add_nodeint_end.c`: Adds a new node at the end of a linked list.
 - `4-free_listint.c`: Frees a linked list.
