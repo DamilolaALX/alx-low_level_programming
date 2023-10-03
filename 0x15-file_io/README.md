@@ -1,7 +1,7 @@
 # 0x15-file_io
 This repository contains C programs that demonstrate file I/O operations and handling ELF headers.
 
-##Files
+## Files
 0-read_textfile.c
 - Contains a function to read and print a specified number of letters from a text file.
 
